@@ -23,15 +23,15 @@ function woodCalculator(chair,table,bed){
 //brickCalculator
 function brickCalculator(floorsOfBuilding){
     if (floorsOfBuilding <= 10) {
-        var brick = floorsOfBuilding * 15;
+        var totalBrick = floorsOfBuilding * 15;
     }
      if(floorsOfBuilding > 10 && floorsOfBuilding <= 20){
-        var brick = floorsOfBuilding * 12;
+        var totalBrick = floorsOfBuilding * 12;
     }
      if(floorsOfBuilding > 10 && floorsOfBuilding > 20){
-        var brick = floorsOfBuilding * 10;
+        var totalBrick = floorsOfBuilding * 10;
     }
-    return brick;
+    return totalBrick;
 }
 
 
